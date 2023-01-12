@@ -1,0 +1,25 @@
+header {
+    float:up;
+    background: #E6E6E6;
+}
+
+aside {
+    float:left;
+    background: #E6E6E6;
+    width: 20%;
+    padding: 2,5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 5px solid #4d4d4d;
+}
+
+header img {
+    width: 80px;
+    float: left;
+}
+
+header .name-header {
+    font-size: 26px;
+    margin-left: 5px;
+    font-weight: bold;
+}
