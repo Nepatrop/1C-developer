@@ -3,13 +3,14 @@ aside {
     background: #E6E6E6;
     width: 20%;
     padding: 2,5%;
-    height: 100vh;
+    min-height: 100vh;
     color: #fff;
     border-right: 5px solid #A1A1A1;
+    position: fixed;
 }
 
 header img {
-    width: 80px;
+    width: 70px;
     float: left;
 }
 
@@ -25,12 +26,16 @@ aside ul li:hover{
 
 body .first-paragraph {
     float:left;
-    text-align: center;
-    width: 75%;
+    text-align: left;
     margin: auto 20px;
+    padding-left:300px;
 }
 
 body .first-paragraph img {
     width: 400px;
-    float: center;
+    margin: 10px 380px 10px;
+}
+
+body .first-paragraph h1{
+    text-align: center;
 }
