@@ -1,0 +1,70 @@
+aside {
+    float:left;
+    background: #E6E6E6;
+    width: 20%;
+    padding: 2,5%;
+    min-height: 100vh;
+    color: #fff;
+    border-right: 5px solid #A1A1A1;
+    position: fixed;
+}
+
+header img {
+    width: 70px;
+    float: left;
+}
+
+header .name-header {
+    font-size: 26px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+aside ul li:hover{
+    transform: scale(1.02);
+}
+
+body .first-paragraph img {
+    width: 900px;
+    margin: 10px 450px 10px;
+}
+
+body .first-paragraph h1{
+    text-align: center;
+    padding-left:300px;
+}
+
+table{
+    margin: 10px 760px 10px;
+    width: 300px;
+    height: 800px;
+}
+
+table td{
+    text-align: center;
+    border-right: 3px double #A1A1A1;
+    border-left: 3px double #A1A1A1;
+    border-top: 3px double #A1A1A1;
+    border-bottom: 3px double #A1A1A1;
+}
+
+table th {
+    background: #C0C0C0;
+    text-align: center;
+    border-right: 3px double #A1A1A1;
+    border-left: 3px double #A1A1A1;
+    border-top: 3px double #A1A1A1;
+}
+
+table .u-table-cell-f{
+    background: #DCDCDC;
+}
+
+table .u-table-cell-s{
+    background: #D3D3D3;
+}
+
+body .1cDevGraphsV{
+    width: 900px;
+    margin: 10px 450px 10px;
+}
