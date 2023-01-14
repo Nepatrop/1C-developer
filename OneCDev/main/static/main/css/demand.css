@@ -1,12 +1,6 @@
-aside {
-    float:left;
-    background: #E6E6E6;
-    width: 20%;
-    padding: 2,5%;
-    min-height: 100vh;
-    color: #fff;
-    border-right: 5px solid #A1A1A1;
-    position: fixed;
+header{
+    float:right;
+    width: 81%;
 }
 
 header img {
@@ -20,8 +14,29 @@ header .name-header {
     font-weight: bold;
 }
 
+.name-navigate{
+    color: black;
+    text-align: center;
+}
+
+aside {
+    float:left;
+    background: #E6E6E6;
+    width: 20%;
+    padding: 2,5%;
+    min-height: 100vh;
+    color: #fff;
+    border-right: 5px solid #A1A1A1;
+    position: fixed;
+}
+
 aside ul li:hover{
     transform: scale(1.02);
+}
+
+aside .name-navigate{
+    text-align: center;
+    margin-top: 20px;
 }
 
 body .first-paragraph img {
@@ -67,4 +82,18 @@ table .u-table-cell-s{
 body .1cDevGraphsV{
     width: 900px;
     margin: 10px 450px 10px;
+}
+
+body .1cDevGraphsS{
+    width: 900px;
+    margin: 10px 450px 10px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #E6E6E6;
+  border-top: 5px solid #A1A1A1;
+  text-align: right;
 }

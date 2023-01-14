@@ -14,12 +14,16 @@
 <body>
   <header class="d-flex flex-wrap justify-content-center py-3 bg-light">
     <a href="" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-      <svg class="bi pe-none me-2" width="26" height="48"><use xlink:href="#bootstrap"></use></svg>
+      <svg class="bi pe-none me-2" width="26" height="42"><use xlink:href="#bootstrap"></use></svg>
       <img src="{% static 'main/img/logo.png' %}" alt="logo">
       <span class="name-header">1С-Разработчик</span>
     </a>
   </header>
-  <aside>
+  <aside style="z-index: 2">
+    <h1 class="name-navigate">
+      Навигация
+    </h1>
+    <br>
     <ul class="nav nav-pills flex-column">
       <li class="nav-item">
         <a href="/" class="nav-link link-dark">
@@ -58,7 +62,6 @@
     <h1>Востребованность</h1>
     <br>
     <img src="{% static 'main/img/vacanciesG.png' %}" alt="1cDevGraphsV">
-    <br>
     <table class="table-entity u-table-entity-1">
       <br>
       <thead class="u-palette-1-light-2 u-table-header u-table-header-1">
@@ -148,8 +151,7 @@
     </table>
     <br>
     <img src="{% static 'main/img/salaryG.png' %}" alt="1cDevGraphsS">
-    <br>
-     <table class="table-entity u-table-entity-1">
+    <table class="table-entity u-table-entity-1">
       <br>
       <thead class="u-palette-1-light-2 u-table-header u-table-header-1">
       <tr>
@@ -236,6 +238,11 @@
         </tr>
       </tbody>
     </table>
+  </div>
+  <br>
+  <br>
+  <div class="footer">
+    <p>Акулов Данила Александрович РИ-210948</p>
   </div>
 </body>
 </html>

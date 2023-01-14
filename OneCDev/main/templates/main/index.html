@@ -1,7 +1,7 @@
 {% load static %}
 
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="navigation"
@@ -14,12 +14,16 @@
 <body>
   <header class="d-flex flex-wrap justify-content-center py-3 bg-light">
     <a href="" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-      <svg class="bi pe-none me-2" width="26" height="48"><use xlink:href="#bootstrap"></use></svg>
+      <svg class="bi pe-none me-2" width="26" height="42"><use xlink:href="#bootstrap"></use></svg>
       <img src="{% static 'main/img/logo.png' %}" alt="logo">
       <span class="name-header">1С-Разработчик</span>
     </a>
   </header>
-  <aside>
+  <aside style="z-index: 2">
+    <h1 class="name-navigate">
+      Навигация
+    </h1>
+    <br>
     <ul class="nav nav-pills flex-column">
       <li class="nav-item">
         <a href="/" class="nav-link active" aria-current="page">
@@ -96,6 +100,11 @@
       поэтому сертификаты дают преимущества при приёме на работу и могут стать основанием для повышения сотрудника.
     </p>
     <img src="{% static 'main/img/2cDev.png' %}" alt="2cDev">
+  </div>
+  <br>
+  <br>
+  <div class="footer">
+    <p>Акулов Данила Александрович РИ-210948</p>
   </div>
 </body>
 </html>

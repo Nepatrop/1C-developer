@@ -39,21 +39,49 @@ aside .name-navigate{
     margin-top: 20px;
 }
 
-body .first-paragraph {
-    float:left;
-    text-align: left;
-    margin: auto 20px;
-    padding-left:300px;
-    margin-bottom: 60px;
-}
-
 body .first-paragraph img {
-    width: 400px;
-    margin: 10px 370px 10px;
+    width: 900px;
+    margin: 10px 450px 10px;
 }
 
 body .first-paragraph h1{
     text-align: center;
+    padding-left:300px;
+}
+
+table{
+    margin: 10px 760px 10px;
+    width: 300px;
+    height: 800px;
+}
+
+table td{
+    text-align: center;
+    border-right: 3px double #A1A1A1;
+    border-left: 3px double #A1A1A1;
+    border-top: 3px double #A1A1A1;
+    border-bottom: 3px double #A1A1A1;
+}
+
+table th {
+    background: #C0C0C0;
+    text-align: center;
+    border-right: 3px double #A1A1A1;
+    border-left: 3px double #A1A1A1;
+    border-top: 3px double #A1A1A1;
+}
+
+table .u-table-cell-f{
+    background: #DCDCDC;
+}
+
+table .u-table-cell-s{
+    background: #D3D3D3;
+}
+
+body .1cDevGraphsC{
+    width: 900px;
+    margin: 10px 450px 10px;
 }
 
 .footer {
